@@ -8,7 +8,9 @@ import com.amap.api.location.AMapLocation;
 import com.amap.api.location.AMapLocationListener;
 
 public class MainActivity extends AppCompatActivity implements AMapLocationListener {
+
     private TextView location;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
