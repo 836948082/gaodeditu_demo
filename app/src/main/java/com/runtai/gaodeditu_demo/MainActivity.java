@@ -2,7 +2,6 @@ package com.runtai.gaodeditu_demo;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.widget.TextView;
 
 import com.amap.api.location.AMapLocation;
@@ -17,7 +16,6 @@ public class MainActivity extends AppCompatActivity implements AMapLocationListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         location = (TextView) findViewById(R.id.location);
-        Log.e("", "");
     }
 
     @Override
