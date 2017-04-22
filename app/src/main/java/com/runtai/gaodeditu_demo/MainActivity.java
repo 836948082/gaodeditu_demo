@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity implements AMapLocationListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         location = (TextView) findViewById(R.id.location);
+        //测试第九次
     }
 
     @Override
